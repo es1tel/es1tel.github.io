@@ -46,8 +46,20 @@ nav a {
     background-color: #00ADB5;
 }
 
+.blue-btn:hover {
+    background-color: #00acb593;
+    transition: 0.5s;
+    transform: translate(10px, 10px);
+}
+
 .grey-btn {
     background-color: #CCCCCCCC;
+}
+
+.grey-btn:hover {
+    background-color: #cccccc8f;
+    transition: 0.5s;
+    transform: rotate(1turn);
 }
 
 .big-text {
@@ -83,6 +95,16 @@ nav a {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.705);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue-btn2 {
+    background-color: #00ADB5;
+}
+
+.blue-btn2:hover {
+    background-color: #88dee2;
+    transition: 0.5s;
+    transform: skew(40deg);
 }
 
 .content:nth-last-child(1 of.content) {
@@ -130,6 +152,7 @@ nav a {
 .buttons button:hover {
     opacity: 0.5;
     transition: 0.5s;
+    transform: scale(1.5);
 }
 
 footer {
