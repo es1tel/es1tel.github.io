@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav img {
+    width: 110px;
+    height: 110px;
+}
+
+.main-link {
+    color: black;
+    font-weight: 600;
+}
+
+.about-link, .contact-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.about-link:hover, .contact-link:hover {
+    color: black;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+nav input {
+    width: 650px;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+}
+
+header {
+    height: 590px;
+    background: linear-gradient(60deg,rgb(51, 51, 51), rgb(206, 206, 206));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+header p {
+    padding-top: 10px;
+}
+
+header div {
+    width: 400px;
+}
+
+.right-text {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-text p:first-child {
+    font-size: 35px;
+}
+
+.footer-links {
+    background-color: rgba(0, 0, 0, 0.089);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.footer-links img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.footer-links a:hover {
+    color: black;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.footer-links h3 {
+    font-size: 22px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 194px;
+}
+
+.socmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 194px;
+}
+
+.socmedia div {
+    padding-bottom: 50px;
+}
+
+.information div {
+    padding-bottom: 50px;
+}
+
+.information a {
+    font-size: 20px;
+}
+
+.socmedia a {
+    font-size: 20px;
+}
+
+.contacts h3 {
+    padding-left: 15px;
+}
+
+.contacts img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.contacts div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.contacts div p {
+    width: 300px;
+}
+
+.bottom {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.products h1 {
+    font-size: 32px;
+}
+
+.product-item img {
+    width: 150px;
+    height: 200px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px;
+    gap: 10px;
+}
+
+.product-item h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.product-item button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-item button:hover {
+    background-color: rgba(0, 0, 0, 0.682);
+    transition: 0.5s;
+}

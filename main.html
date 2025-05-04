@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Книжный магазин</title>
+</head>
+<script>
+    function redirect() {
+      window.location.href = "order.html";
+    }
+  </script>
+<body>
+    <nav>
+        <ul>
+            <li><a href="main.html"><img src="src/logo.png" alt="logo"></a></li>
+            <li><input type="text" placeholder="Искать"/></li>
+            <li><a href="main.html" class="main-link">Главная</a></li>
+            <li><a href="about.html" class="about-link">О нас</a></li>
+            <li><a href="contact.html" class="contact-link">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div>
+            <h1>Добро пожаловать в книжный магазин Book Store</h1>
+            <p>Мы предлагаем широкий выбор книг на любой вкус</p>
+        </div>
+        <div class="right-text">
+            <p>Тому, кто читает книги, никогда не скучно.</p>
+            <p><em>Ирвин Уэлш "Кислотный дом"</em></p>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <h1>Наши продукты</h1>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="src/pegiy pes.jpg" alt="Обложка книги 'Пегий пес, бегущий краем моря'">
+                    <h3>Пегий пес, бегущий краем моря. Чынгыз Айтматов</h3>
+                    <p>260 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+                <div class="product-item">
+                    <img src="src/atlant.jpg" alt="Обложка книги 'Атлант расправил плечи'">
+                    <h3>Атлант расправил плечи. Айн Рэнд</h3>
+                    <p>1100 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+                <div class="product-item">
+                    <img src="src/dostoevsky.jpg" alt="Обложка книги 'Братья Карамазовы'">
+                    <h3>Братья Карамазовы. Фёдор Достоевский</h3>
+                    <p>340 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+                <div class="product-item">
+                    <img src="src/coraline.jpg" alt="Обложка книги 'Коралина'">
+                    <h3>Коралина. Н. Гейман. Р. Крис</h3>
+                    <p>670 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+                <div class="product-item">
+                    <img src="src/labkovsky.jpg" alt="Обложка книги 'Люблю и понимаю'">
+                    <h3>Люблю и понимаю. М. Лабковский</h3>
+                    <p>960 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+                <div class="product-item">
+                    <img src="src/blagoslovlenie.jpg" alt="Обложка книги 'Благословение небожителей'">
+                    <h3>Благословение небожителей. М. Тунсю</h3>
+                    <p>1400 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+                <div class="product-item">
+                    <img src="src/strugaskie.jpg" alt="Обложка книги 'Град обреченный'">
+                    <h3>Град обреченный. А. Стругацкий, Б. Стругацкий</h3>
+                    <p>380 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+                <div class="product-item">
+                    <img src="src/murakami.jpg" alt="Обложка книги 'О чём я говорю, когда говорю о беге'">
+                    <h3>О чём я говорю, когда говорю о беге. Мураками</h3>
+                    <p>590 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+                <div class="product-item">
+                    <img src="src/bad friends.jpg" alt="Обложка книги 'Худшие подруги'">
+                    <h3>Худшие подруги. Ася Лавринович, Алекс Хилл</h3>
+                    <p>580 сом</p>
+                    <button onclick="redirect()">Заказать</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="main.html"><img src="src/logo.png" alt="logo"></a>
+            <div class="information">
+                <h3>Информация</h3>
+                <div>
+                    <a href="main.html">Главная</a>
+                    <a href="about.html">О нас</a>
+                    <a href="contact.html">Контакты</a>
+                </div>
+            </div>
+            <div class="socmedia">
+                <h3>Соцсети</h3>
+                <div>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <a href="https://www.whatsapp.com/">WhatsApp</a>
+                </div>
+            </div>
+            <div class="contacts">
+                <h3>Контакты</h3>
+                <div>
+                    <img src="src/gps.svg" alt="">
+                    <p>Кыргызстан
+                        г. Бишкек, площадь Ала-Тоо, Министерство культуры и информации</p>
+                </div>
+                <div>
+                    <img src="src/telephone.svg" alt="">
+                    <a href="#">0 (312) 65-40-23</a>
+                </div>
+                <div>
+                    <img src="src/email.svg" alt="">
+                    <a href="#">bookstore@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">© Book store. Все права защищены.</div>
+    </footer>
+</body>
+</html>
